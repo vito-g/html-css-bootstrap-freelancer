@@ -66,11 +66,15 @@ main .container {
 main [class*="col-"] {
   /* height: 70px; */
   /* border: 1px solid red; */
-  padding: 10px;
+  padding: 5px;
+  /* border-radius: 200px; */
+  /* overflow: hidden; */
 }
 
 main [class*="col-"] img {
   width: 100%;
+  padding: 10px;
+  border-radius: 20px;
 }
 
 main ~ .container-fluid {
