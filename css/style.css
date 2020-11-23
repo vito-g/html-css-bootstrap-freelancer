@@ -70,3 +70,10 @@ main [class*="col-"] {
 main [class*="col-"] img {
   width: 100%;
 }
+
+main ~ .container-fluid {
+  background-color: rgb(26,188,156);
+  height: 400px;
+  color: white;
+  text-align: center;
+}
