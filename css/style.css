@@ -58,7 +58,7 @@ main .thestar::before, main .thestar::after {
 }
 
 main .container {
-  padding: 0 150px;
+  /* padding: 0 150px; */
   background-color: yellow;
   border: 1px solid black;
 }
@@ -75,13 +75,28 @@ main [class*="col-"] img {
 
 main ~ .container-fluid {
   background-color: rgb(26,188,156);
-  height: 400px;
+  /* height: 400px; */
   color: white;
   text-align: center;
 }
 
+main ~ .container-fluid .container {
+  padding: 20px 80px;
+}
+
 main ~ .container-fluid .container [class*="col-"] {
-  height: 100px;
-  background-color: red;
+  /* height: 100px; */
+  /* background-color: red; */
   border: 1px solid black;
+  text-align: left;
+}
+
+.btn {
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: transparent;
+  color: white;
+  padding: 7px 14px;
+  font-size: 16px;
+  cursor: pointer;
 }
