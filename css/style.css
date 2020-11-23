@@ -1,6 +1,6 @@
 .container-fluid {
   background-color: blue;
-  height: 400px;
+  /* height: 400px; */
 }
 
 .row.nav {
@@ -11,4 +11,5 @@
 .container {
   background-color: yellow;
   height: 100%;
+  border: 1px solid black;
 }
