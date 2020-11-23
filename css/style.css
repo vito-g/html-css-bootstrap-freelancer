@@ -1,0 +1,14 @@
+.container-fluid {
+  background-color: blue;
+  height: 400px;
+}
+
+.row.nav {
+  background-color: red;
+  height: 60px;
+}
+
+.container {
+  background-color: yellow;
+  height: 100%;
+}
