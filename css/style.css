@@ -93,6 +93,7 @@ main ~ .container-fluid .container [class*="col-"] {
   /* background-color: red; */
   /* border: 1px solid black; */
   text-align: left;
+  padding: 0;
 }
 
 .btn {
@@ -106,7 +107,9 @@ main ~ .container-fluid .container [class*="col-"] {
   margin: 20px;
 }
 
-/* .container-fluid.contact {
-  background-color: white;
-  color: black;
-} */
+input[type], textarea {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid black;
+  line-height: 2.5;
+}
