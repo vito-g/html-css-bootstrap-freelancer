@@ -5,16 +5,33 @@
   text-align: center;
 }
 
-.row.nav {
-  background-color: rgb(44,62,80);
-  /* height: 60px; */
+.container-fluid.bl-padding {
+  padding-right: 0px;
+  padding-left: -15px;
 }
+
+/* .row.nav {
+  background-color: rgb(44,62,80);
+  height: 60px;
+} */
 
 .container {
   /* background-color: yellow; */
   height: 100%;
   border: 1px solid black;
   padding: 40px;
+}
+
+.container-fluid.bl-bg-color {
+  background-color: rgb(44,62,80);
+}
+
+.navbar-default .navbar-nav.bl-col > li > a, .navbar-default .navbar-brand.bl-col {
+  color: white;
+}
+
+.navbar-default .navbar-brand.bl-col.bl-col-transf:focus, .navbar-default .navbar-brand.bl-col.bl-col-transf:hover, .navbar-default .navbar-nav.bl-col-transf > li > a:focus, .navbar-default .navbar-nav.bl-col-transf > li > a:hover {
+  color: rgb(26,188,156);
 }
 
 main.container-fluid, .container-fluid.contact {
