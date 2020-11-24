@@ -7,13 +7,13 @@
 
 .row.nav {
   background-color: rgb(44,62,80);
-  height: 60px;
+  /* height: 60px; */
 }
 
 .container {
   /* background-color: yellow; */
   height: 100%;
-  /* border: 1px solid black; */
+  border: 1px solid black;
   padding: 40px;
 }
 
