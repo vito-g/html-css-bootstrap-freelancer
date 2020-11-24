@@ -114,6 +114,10 @@ input[type]:not(input[type="button"]), textarea {
   line-height: 2.5;
 }
 
+div#input-button {
+  position: relative;
+}
+
 input[type="button"] {
   border: 2px solid white;
   border-radius: 5px;
@@ -124,4 +128,6 @@ input[type="button"] {
   cursor: pointer;
   margin: 10px 0;
   /* text-align: left; */
+  position: absolute;
+  left: 0;
 }
