@@ -107,9 +107,21 @@ main ~ .container-fluid .container [class*="col-"] {
   margin: 20px;
 }
 
-input[type], textarea {
+input[type]:not(input[type="button"]), textarea {
   width: 100%;
   border: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid lightgrey;
   line-height: 2.5;
+}
+
+input[type="button"] {
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: rgb(26,188,156);
+  color: white;
+  padding: 7px 14px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px 0;
+  /* text-align: left; */
 }
