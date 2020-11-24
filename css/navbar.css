@@ -2,10 +2,18 @@
   background-color: rgb(44,62,80);
 }
 
-.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
-  color: rgb(26,188,156);
+.navbar-default .navbar-nav.bl-col > li > a, .navbar-default .navbar-brand.bl-col {
+  color: white;
 }
 
-.navbar-default .navbar-nav > li > a {
-  color: white;
+/* .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+  color: rgb(26,188,156);
+} */
+
+/* .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+  color: rgb(26,188,156);
+} */
+
+.navbar-default .navbar-brand.bl-col.bl-col-transf:focus, .navbar-default .navbar-brand.bl-col.bl-col-transf:hover, .navbar-default .navbar-nav > li > a.bl-col-transf:focus, .navbar-default .navbar-nav > li > a:hover {
+  color: rgb(26,188,156);
 }
