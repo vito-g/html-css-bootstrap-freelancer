@@ -88,12 +88,22 @@ main ~ .container-fluid .container {
   padding: 40px 80px;
 }
 
-main ~ .container-fluid .container [class*="col-"] {
+main ~ .container-fluid .container [class*="col-"]:first-of-type {
   /* height: 100px; */
   /* background-color: red; */
   /* border: 1px solid black; */
   text-align: left;
-  padding: 0;
+  /* padding-right: 2.5px; */
+    padding: 0 7.5px 0 0;
+}
+
+main ~ .container-fluid .container [class*="col-"]:last-of-type {
+  /* height: 100px; */
+  /* background-color: red; */
+  /* border: 1px solid black; */
+  text-align: left;
+  padding: 0 0 0 7.5px;
+  /* padding-left: 2.5px; */
 }
 
 .btn {
